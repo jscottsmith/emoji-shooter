@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "indent": [2, 4]
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "jsx": true
+  },
+  "parser": "babel-eslint",
+  "environment": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "airbnb"
+}

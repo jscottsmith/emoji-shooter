@@ -1,0 +1,4 @@
+**/src/javascript/common/libs/vendor/
+**/build/
+**/node_modules/
+**/gulpfile.js/
