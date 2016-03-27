@@ -5,6 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic,100italic,100);
 @import "normalize";
 @import "variables";
+@import "extends";
 
 body {
     text-align: center;
@@ -12,4 +13,17 @@ body {
     font-size: 16px;
     color: rgba(black, .8);
     background-color: #eee;
+}
+
+#game {
+	@extend %spread;
+}
+
+.score {
+	@extend %spread;
+	z-index: 1;
+	pointer-events: none;
+	button {
+		pointer-events: initial;
+	}
 }

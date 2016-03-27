@@ -1,15 +1,21 @@
 {
-  "rules": {
-    "indent": [2, 4]
-  },
-  "ecmaFeatures": {
-    "modules": true,
-    "jsx": true
-  },
-  "parser": "babel-eslint",
-  "environment": {
-    "browser": true,
-    "es6": true
-  },
-  "extends": "airbnb"
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "rules": {
+        "indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
+        "max-len": [1, 100]
+    },
+    "globals": {
+        "Promise": true,
+        "Howler": true,
+        "Howl": true,
+        "TweenLite": true,
+        "Power0": true,
+        "Power1": true,
+        "Power2": true,
+        "Elastic": true,
+        "Circ": true,
+        "Linear": true,
+    }
 }
