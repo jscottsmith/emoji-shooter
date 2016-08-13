@@ -1,6 +1,10 @@
-# React Alt Canvas Starter
+# Emoji Shooter
 
-A quick starter for _experimenting_ with React and Canvas. Howler 2.0 for sound, GSAP for animation, Babel, Gulp, Browserify, and Sass with Autoprefixer.
+Shoot emojis with emojis. 
+
+Disclaimer: 💩 A hastily coded and unfinished shooting game with lots of flaws and some poor patterns -- but it should work for the most part.
+
+Demo here: [https://jscottsmith.github.io/emoji-shooter/dist/](https://jscottsmith.github.io/emoji-shooter/dist/)
 
 ## Get Started
 
