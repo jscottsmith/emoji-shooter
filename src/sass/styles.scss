@@ -11,19 +11,16 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    font-weight: 100;
     color: rgba(black, .8);
     background-color: #eee;
+    user-select: none;
 }
 
-#game {
-	@extend %spread;
+html, body {
+    overflow: hidden;
 }
 
-.score {
-	@extend %spread;
-	z-index: 1;
-	pointer-events: none;
-	button {
-		pointer-events: initial;
-	}
+#canvas {
+	cursor: none !important;
 }
