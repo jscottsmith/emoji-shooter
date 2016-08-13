@@ -56,7 +56,7 @@ gulp.task('copy-html', function () {
         .pipe(connect.reload());
 });
 
-// Html
+// Libs
 // -------------------------
 gulp.task('copy-libs', function () {
     return gulp
@@ -98,3 +98,4 @@ gulp.task('connect', function() {
 // Default Task
 // -------------------------
 gulp.task('default', ['build-js', 'copy-html', 'copy-libs', 'copy-images', 'compile-scss', 'watch', 'connect']);
+gulp.task('build', ['build-js', 'copy-html', 'copy-libs', 'copy-images', 'compile-scss']);
