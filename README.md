@@ -1,6 +1,6 @@
-# React Basic Boiler
+# React Alt Canvas Starter
 
-A quick starter for _experimenting_ with React and ES6. Nothing fancy, just ES6/ES2015, Babel, Gulp, Browserify, and Sass with Autoprefixer.
+A quick starter for _experimenting_ with React and Canvas. Howler 2.0 for sound, GSAP for animation, Babel, Gulp, Browserify, and Sass with Autoprefixer.
 
 ## Get Started
 
